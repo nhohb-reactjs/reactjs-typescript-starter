@@ -1,0 +1,23 @@
+// Margin/Padding Helpers
+$spaces: 0, 5, 6, 7, 8, 10, 18, 15, 20, 23, 25, 30, 35, 40, 45, 50, 70, 80, 120;
+@each $space in $spaces {
+  .ma-#{$space} { margin: #{$space}px !important; }
+
+  .mt-#{$space} { margin-top: #{$space}px !important; }
+
+  .mb-#{$space} { margin-bottom: #{$space}px !important; }
+
+  .ml-#{$space} { margin-left: #{$space}px !important; }
+
+  .mr-#{$space} { margin-right: #{$space}px !important; }
+
+  .pa-#{$space} { padding: #{$space}px !important; }
+
+  .pt-#{$space} { padding-top: #{$space}px !important; }
+
+  .pb-#{$space} { padding-bottom: #{$space}px !important; }
+
+  .pl-#{$space} { padding-left: #{$space}px !important; }
+
+  .pr-#{$space} { padding-right: #{$space}px !important; }
+}
